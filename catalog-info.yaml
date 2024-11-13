@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bezryk123"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "bezryk123"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
